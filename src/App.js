@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import Fotter from "./pages/Fotter/Fotter";
 import Header from "./pages/Header/Header";
 import Breakfast from "./pages/Home/Breakfast/Breakfast";
 import Dinner from "./pages/Home/Dinner/Dinner";
@@ -22,6 +23,7 @@ function App() {
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/signup" element={<Signup></Signup>}></Route>
       </Routes>
+      <Fotter></Fotter>
     </div>
   );
 }

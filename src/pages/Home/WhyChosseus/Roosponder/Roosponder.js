@@ -5,7 +5,7 @@ import logo from "../../../../images/chef-cook-food-33614.png";
 
 const Roosponder = () => {
   return (
-      <div>
+      <div className="shadow-2xl">
         <div>
           <img width={400} src={logo} alt="" />
         </div>
