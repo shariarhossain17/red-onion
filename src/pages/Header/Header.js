@@ -7,9 +7,11 @@ import logo2 from '../../images/logo2.png';
 const Header = () => {
     return (
         <div className="mx-auto md:flex justify-between px-20 py-4 align">
-            <div as={Link} to='/'>
+            <Link to='/'>
+            <div>
                 <img  width={150} src={logo2} alt="" />
             </div>
+            </Link>
             <div className="">
             <FontAwesomeIcon  className="md:px-6" icon={faShoppingCart} />
             <Link className="md:px-6  font-bold" to="/login">Login</Link>
