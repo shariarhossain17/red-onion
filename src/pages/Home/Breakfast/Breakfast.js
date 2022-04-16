@@ -1,18 +1,20 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext } from "react";
+import { onionDataContext } from "../../../App";
 import Breakfastitem from "../BreakfastItem/Breakfastitem";
 
 const Breakfast = () => {
-  const [items, setItems] = useState([]);
-  useEffect(() => {
-    fetch("Breakfast.json")
-      .then((res) => res.json())
-      .then((data) => setItems(data));
-  }, []);
+  const [onionData] = useContext(onionDataContext);
+  const breakfastItem = onionData.filter(
+    (onion) => onion.category === "breakfast"
+  );
   return (
     <div>
-      <div className="md:grid grid-cols-3 mt-20 text-center gap-6">
-        {items.map((item) => (
-          <Breakfastitem key={item.id} item={item}></Breakfastitem>
+      <div className="md:grid grid-cols-3 mt-10 gap-20">
+        {breakfastItem.map((breakfast) => (
+          <Breakfastitem
+            key={breakfast.id}
+            breakfast={breakfast}
+          ></Breakfastitem>
         ))}
       </div>
     </div>

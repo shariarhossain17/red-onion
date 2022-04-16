@@ -1,0 +1,128 @@
+[
+  {
+    "id": "1",
+    "balance": "$285.94",
+    "picture": "https://i.ibb.co/mBgvmyM/breakfast1.png",
+    "name": "Bengal And Cream cheese",
+    "category": "breakfast"
+  },
+  {
+    "id": "2",
+    "balance": "$128.35",
+    "picture": "https://i.ibb.co/yyJz0P0/breakfast2.png",
+    "name": "Breakfast Sandwich",
+    "category": "breakfast"
+  },
+  {
+    "id": "3",
+    "balance": "$297.92",
+    "picture": "https://i.ibb.co/zJqWWg0/breakfast3.png",
+    "name": "Baked Chiken",
+    "category": "breakfast"
+  },
+  {
+    "id": "4",
+    "balance": "$377.59",
+    "picture": "https://i.ibb.co/mC8RGkQ/breakfast4.png",
+    "name": "Eggs Benedict",
+    "category": "breakfast"
+  },
+  {
+    "id": "5",
+    "balance": "$282.51",
+    "picture": "https://i.ibb.co/XSB6SND/breakfast5.png",
+    "name": "Tost fried egg",
+    "category": "breakfast"
+  },
+  {
+    "id": "6",
+    "balance": "$387.83",
+    "picture": "https://i.ibb.co/f2yTZwQ/breakfast6.png",
+    "name": "full Breakfast",
+    "category": "breakfast"
+  },
+  {
+    "id": "7",
+    "balance": "$142.46",
+    "picture": "https://i.ibb.co/gWvJB2D/dinner1.png",
+    "name": "salmon with grapfruit and lenti salad",
+    "category": "dinner"
+  },
+  {
+    "id": "8",
+    "balance": "$115.27",
+    "picture": "https://i.ibb.co/rpsVL5b/dinner2.png",
+    "name": "Lemony salmon picata",
+    "category": "dinner"
+  },
+  {
+    "id": "9",
+    "balance": "$158.98",
+    "picture": "https://i.ibb.co/n6Vx7xM/dinner3.png",
+    "name": "pork tenderloin with pilaf",
+    "category": "dinner"
+  },
+  {
+    "id": "10",
+    "balance": "$129.42",
+    "picture": "https://i.ibb.co/HzP1nZq/dinner4.png",
+    "name": "french fry with cheese",
+    "category": "dinner"
+  },
+  {
+    "id": "11",
+    "balance": "$187.77",
+    "picture": "https://i.ibb.co/d2SD6Lc/dinner5.png",
+    "name": "garlic butter baked salmon",
+    "category": "dinner"
+  },
+  {
+    "id": "12",
+    "balance": "$163.26",
+    "picture": "https://i.ibb.co/bdYQVL9/dinner6.png",
+    "name": "baked chicken",
+    "category": "dinner"
+  },
+  {
+    "id": "13",
+    "balance": "$105.91",
+    "picture": "https://i.ibb.co/71m9Fr6/lunch1.png",
+    "name": "Healthy meal plan",
+    "category": "lunch"
+  },
+  {
+    "id": "14",
+    "balance": "$131.70",
+    "picture": "https://i.ibb.co/ZBG0kyd/lunch2.png",
+    "name": "fried chicken bento",
+    "category": "lunch"
+  },
+  {
+    "id": "15",
+    "balance": "$158.30",
+    "picture": "https://i.ibb.co/WPzMFN6/lunch3.png",
+    "name": "tarragon-rubbed-salto",
+    "category": "lunch"
+  },
+  {
+    "id": "16",
+    "balance": "$166.84",
+    "picture": "https://i.ibb.co/Bnn0R0H/lunch4.png",
+    "name": "indian lunch",
+    "category": "lunch"
+  },
+  {
+    "id": "17",
+    "balance": "$141.01",
+    "picture": "https://i.ibb.co/Xy1mhwp/lunch5.png",
+    "name": "Beef steak",
+    "category": "lunch"
+  },
+  {
+    "id": "18",
+    "balance": "$106.26",
+    "picture": "https://i.ibb.co/3kL7wMM/lunch6.png",
+    "name": "salmon with peppers",
+    "category": "lunch"
+  }
+]

@@ -1,17 +1,18 @@
-import React from 'react';
+import React from "react";
+import { useNavigate } from "react-router-dom";
 
-const Lunchitem = ({item}) => {
-    console.log(item);
-    const {picture,name,balance} = item
-    return (
-        <div>
-            <div>
-                <img className='mx-auto'  width={300} src={picture} alt="" />
-            </div>
-            <p className='text-lg font-bold mt-4'>{name}</p>
-            <p className='text-lg font-medium'>price<small>{balance}</small></p>
-        </div>
-    );
+const Lunchitem = ({ lunch }) => {
+  const { name, picture, balance, id } = lunch;
+  const navigate = useNavigate();
+  return (
+    <div onClick={()=> navigate(`/order/${id}`)} className="text-center">
+      <div>
+        <img className="mx-auto" width={300} src={picture} alt="" />
+      </div>
+      <p className="font-bold mt-4">{name}</p>
+      <p className="font-bold mt-4">{balance}</p>
+    </div>
+  );
 };
 
 export default Lunchitem;
